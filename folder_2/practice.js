@@ -4,7 +4,7 @@ let stringTwo = "frontend and backend development";
 
 //caharAt()
 console.log(stringOne.charAt(4));
-// this methods is recive number and ouput 
+this methods is recive number and ouput 
 
 
 //charCodeAt()
@@ -13,6 +13,7 @@ console.log(stringTwo.charCodeAt(3));
 
 //concat()
 console.log(stringOne.concat(stringTwo));
+console.log(stringTwo.concat(stringOne));
 
 
 //endsWith()
@@ -69,3 +70,11 @@ console.log(stringOne.toLocaleUpperCase());
 //trim() 
 let conversation = "      hello are you ok?      "
 console.log(conversation.trim());
+
+let number =Math.random()*100
+console.log(number);
+console.log(Math.round(number));
+let num = Math.floor(Math.random()*100);
+console.log(num);
+let sum = Math.pow(2,3)
+console.log(sum);
